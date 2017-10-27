@@ -1,28 +1,25 @@
-# GitBook Toolchain Documentation
+# GitBook 工具链文档
 
-This document aims to be a comprehensive guide to GitBook. It contains the full documentation for version **{{ book.version }}**. Help for GitBook.com specific questions can be found at [help.gitbook.com](https://help.gitbook.com).
+本文档为针对Gitbook的综合指南。其中包含针对 **{{book.version}}** 版本gitbook全部内容。在[help.gitbook.com](https://help.gitbook.com)中可以查找到特定问题的帮助信息。
 
-本文档为Gitbook的综合性文档。这篇文档包含针对 **{{book.version}}** 版本gitbook全部文档。
+### GitBook 是什么?
 
+GitBook 是一个使用GitHub/Git以及 Markdown(或者 AsciiDoc)，来构建漂亮的电子书籍的命令行工具(以及Node.js库).本文档就是通过GitBook来生成的.
 
-### What is GitBook?
+GitBook可以将你的内容生成为一个web网站([customizable](themes/README.md) and [extensibles](plugins/README.md))或者电子书(PDF,ePub或者Mobi)
 
-GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc). . This documentation has been generated using GitBook.
+[GitBook.com](https://www.gitbook.com) 是一个使用Gitbook格式，来创建以及保存书籍的在线平台。它提供代码托管，协作工作的特点并且是[一个很容易上手的编辑器](https://www.gitbook.com/editor).
 
-GitBook can output your content as a website ([customizable](themes/README.md) and [extensibles](plugins/README.md)) or as an ebook (PDF, ePub or Mobi).
+### 帮助和支持
 
-[GitBook.com](https://www.gitbook.com) is the online platform to create and host books built using the GitBook format. It offers hosting, collaboration features and an [easy-to-use editor](https://www.gitbook.com/editor).
+我们很高兴去帮你解决书籍或者其他方面你所遇到的问题。你可以通过下面的联系方式提问:[gitbook.com/contact](https://www.gitbook.com/contact) 或者在 [GitHub](https://github.com/GitbookIO/gitbook)上提问。
 
-### Help and Support
+在 [GitBook Community Slack Channel](https://slack.gitbook.com) 上来进行提问, 关注下面两个即时通信工具的最新消息: [@GitBookIO](https://twitter.com/GitBookIO) or [GitBook](https://www.facebook.com/gitbookcom) 
 
-We're always happy to help out with your books or any other questions you might have. You can ask a question on the following contact form at [gitbook.com/contact](https://www.gitbook.com/contact) or signal an issue on [GitHub](https://github.com/GitbookIO/gitbook).
+### 问答
 
-Check out the [GitBook Community Slack Channel](https://slack.gitbook.com), Stay updated by following [@GitBookIO](https://twitter.com/GitBookIO) on Twitter or [GitBook](https://www.facebook.com/gitbookcom) on Facebook.
+许多问题经常被提问，如果你存在问题，可以首先检查 [check this out](faq.md)
 
-### FAQ
+### 贡献
 
-Some questions are frequently asked. If you have a problem you should [check this out](faq.md) first.
-
-### Contribute to this documentation
-
-You can contribute to improve this documentation on [GitHub](https://github.com/GitbookIO/gitbook) by signaling issues or proposing changes.
+你可以通过在[GitHub](https://github.com/GitbookIO/gitbook)上标记问题或者直接修改来改善这个文档
