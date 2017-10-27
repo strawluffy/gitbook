@@ -1,22 +1,22 @@
 # GitBook FAQ
 
-This page gathers common questions and answers concerning the GitBook format and toolchain.
+本页面涵盖了通用的问题以及GitBook格式和工具链方面的回答。
 
-Questions about GitBook.com and the Editor are gather into the [help.gitbook.com's FAQ](http://help.gitbook.com/faq.html).
+关于GitBook.com以及编辑器的问题应合并到这个栏目里面: [help.gitbook.com's FAQ](http://help.gitbook.com/faq.html).
 
-#### How can I host/publish my book?
+#### How can I host/publish my book? 我如何托管/发布我的图书?
 
-Books can easily be published and hosted on [GitBook.com](https://www.gitbook.com). But GitBook output can be hosted on any static file hosting solution.
+书籍可以在 [GitBook.com](https://www.gitbook.com).上托管和发布非常容易。GitBook的输出文件，可以被托管到任何静态文件网站上。
 
-#### What can I use to edit my content?
+#### 我可以使用什么工具来编辑我的内容？
 
-Any text editor should work! But we advise using the [GitBook Editor](https://www.gitbook.com/editor). [GitBook.com](https://www.gitbook.com) also provides a web version of this editor.
+任何文本编辑器都可以。但是我们推荐使用: [GitBook Editor](https://www.gitbook.com/editor). [GitBook.com](https://www.gitbook.com) 也提供了一个在线版本的编辑器.
 
 ---
 
-#### Does GitBook supports RTL/bi-directional text ?
+#### GitBook 是否支持 RTL/bi-directional 文本 ?
 
-The GitBook format supports right to left, and bi-directional writing. To enable it, you either need to specify a language (ex: `ar`), or force GitBook to use RTL in your `book.json`:
+The GitBook 格式支持 right to left, 以及 bi-directional 来编写. 为了使他生效，你需要指定一个语言 \(ex: `ar`\), 或者强制GitBook 在 `book.json`中使用RTL :
 
 ```json
 {
@@ -25,7 +25,7 @@ The GitBook format supports right to left, and bi-directional writing. To enable
 }
 ```
 
-With version 3.0 of GitBook, it's automatically detected according to the content.
+With version 3.0 of GitBook, it's automatically detected according to the content.  
 _Note that, while the output book will indeed respect RTL, the Editor doesn't support RTL writing yet_.
 
 #### Should I use an `.html` or `.md` extensions in my links?
@@ -38,7 +38,7 @@ Yes, GitBooks can be created in [sub-directories](structure.md#subdirectory). Gi
 
 #### Does GitBook supports RTL languages?
 
-Yes, GitBook automatically detect the direction in your pages (`rtl` or `ltr`) and adjust the layout accordingly. The direction can also be specified globally in the [book.json](config.md).
+Yes, GitBook automatically detect the direction in your pages \(`rtl` or `ltr`\) and adjust the layout accordingly. The direction can also be specified globally in the [book.json](config.md).
 
 ---
 
@@ -50,6 +50,7 @@ GitBook supports math equations and TeX thanks to plugins. There are currently 2
 
 Yes, both the website and ebook outputs can be customized using [themes](themes/README.md).
 
-#### Can I add interactive content (videos, etc)?
+#### Can I add interactive content \(videos, etc\)?
 
 GitBook is very [extensible](plugins/README.md). You can use [existing plugins](https://plugins.gitbook.com) or create your own!
+
