@@ -1,11 +1,10 @@
 # 目录结构
 
-GitBook uses a simple directory structure. All Markdown/Asciidoc files listed in the [SUMMARY](pages.md) will be transformed as HTML. Multi-Lingual books have a slightly [different structure](languages.md).
+GitBook的目录结构很简单.在[SUMMARY](pages.md)文件罗列的Markdown/Asciidoc文件，之后会被转换为HTML多行标签，并且他们结构会稍有[不同 ](languages.md).
 
-A basic GitBook usually looks something like this:
+一个基本的GitBook目录结构一般会像下面这样：
 
 ```
-.
 ├── book.json
 ├── README.md
 ├── SUMMARY.md
@@ -17,23 +16,26 @@ A basic GitBook usually looks something like this:
     └── something.md
 ```
 
-An overview of what each of these does:
+这些文件的作用解释如下：
 
 | File | Description |
 | --- | --- |
-| `book.json` | Stores [configuration](config.md) data \(**optional**\) |
-| `README.md` | Preface / Introduction for your book \(**required**\) |
-| `SUMMARY.md` | Table of Contents \(See [Pages](pages.md)\) \(**optional**\) |
-| `GLOSSARY.md` | Lexicon / List of terms to annotate \(See [Glossary](lexicon.md)\) \(**optional**\) |
+| `book.json` | 存储 [配置](config.md) 数据 \(可选\) |
+| `README.md` | 前言 / 关于书籍的介绍 \(必须\) |
+| `SUMMARY.md` | 目录结构 \(查阅 [页面](pages.md)\) \(可选\) |
+| `GLOSSARY.md` | 词典 / 术语解释 \(查阅 [术语](lexicon.md)\) \(可选\) |
 
-### Static files and Images
+### 静态文件和图片
 
-A static file is a file that is not listed in the `SUMMARY.md`. All static files, unless [ignored](#ignore), are copied to the output.
+静态文件并不会在`SUMMARY.md` 中列出，所有的静态文件，除非是[忽略的](#ignore)，都会被拷贝到输出目录中。
 
-### Ignoring files & folders {#ignore}
 
-GitBook will read the `.gitignore`, `.bookignore` and `.ignore` files to get a list of files and folders to skip.  
-The format inside those files, follows the same convention as `.gitignore`:
+
+忽略的文件以及目录
+
+GitBook 会读取 `.gitignore`, `.bookignore` and `.ignore` 文件来获取哪些需要被忽略的文件或者目录。
+
+这些文件内的格式 和 `.gitignore`中的设定规则相同.
 
 ```
 # This is a comment
@@ -45,9 +47,9 @@ test.md
 bin/*
 ```
 
-### Project integration with subdirectory {#subdirectory}
+### Project integration with subdirectory  {#subdirectory}
 
-For software projects, you can use a subdirectory \(like `docs/`\) to store the book for the project's documentation. You can configure the [`root` option](config.md) to indicate the folder where GitBook can find the book's files:
+在软件工程中，你可以使用子目录\(如 docs/\)来存储工程文档相关的文件。你可以配置 [`root` 选项](config.md) 来强调GitBook可以从这个位置找到文档文件。
 
 ```
 .
@@ -57,7 +59,7 @@ For software projects, you can use a subdirectory \(like `docs/`\) to store the 
     └── SUMMARY.md
 ```
 
-With `book.json` containing:
+需要在 `book.json` 加入下面的内容:
 
 ```
 {
