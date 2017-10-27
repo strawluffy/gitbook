@@ -2,6 +2,9 @@
 
 This document aims to be a comprehensive guide to GitBook. It contains the full documentation for version **{{ book.version }}**. Help for GitBook.com specific questions can be found at [help.gitbook.com](https://help.gitbook.com).
 
+本文档为Gitbook的综合性文档。这篇文档包含针对 **{{book.version}}** 版本gitbook全部文档。
+
+
 ### What is GitBook?
 
 GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc). . This documentation has been generated using GitBook.
